@@ -1,0 +1,54 @@
+import os
+import json
+import matplotlib.pyplot as plt
+
+ruta_partides = "../partides"
+ruta_grafic = "../sources/Grafics/mitjanaEncertades.png"
+
+def calcular_mitjana_encerts(directori):
+    total_success = 0
+    total_preguntes = 0
+
+    for carpeta, _, fitxers in os.walk(directori):
+        for fitxer in fitxers:
+            if fitxer.endswith(".json"):
+                cami_fitxer = os.path.join(carpeta, fitxer)
+
+                with open(cami_fitxer, 'r', encoding='utf-8') as f:
+                    try:
+                        dades = json.load(f)
+                        total_success += dades.get("success", 0)
+                        total_preguntes += dades.get("total", 0)
+                    except json.JSONDecodeError:
+                        print(f"Error llegint el fitxer {cami_fitxer}. El fitxer pot estar mal format.")
+
+    if total_preguntes > 0:
+        mitjana_encerts = total_success / total_preguntes
+        crear_grafic(mitjana_encerts, total_success, total_preguntes)
+    else:
+        print("No s'han trobat preguntes per calcular la mitjana d'encerts.")
+
+def crear_grafic(mitjana_encerts, total_success, total_preguntes):
+    os.makedirs(os.path.dirname(ruta_grafic), exist_ok=True)
+
+    valors = [total_success, total_preguntes - total_success]
+
+    if sum(valors) > 0:
+        categories = ['Encerts', 'Fallades']
+        plt.figure(figsize=(8, 8))
+        plt.pie(valors, labels=categories, autopct='%1.1f%%', colors=['blue', 'red'], startangle=140)
+
+        centre_circle = plt.Circle((0, 0), 0.0, fc='white')
+        fig = plt.gcf()
+        fig.gca().add_artist(centre_circle)
+
+        plt.title("Dades d'Encerts")
+        
+        plt.savefig(ruta_grafic)
+        plt.close()
+        print(f"Gràfic guardat a {ruta_grafic}")
+    else:
+        print("No hi ha dades per generar el gràfic.")
+
+if __name__ == "__main__":
+    calcular_mitjana_encerts(ruta_partides)
