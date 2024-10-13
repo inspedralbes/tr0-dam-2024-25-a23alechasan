@@ -1,0 +1,484 @@
+{
+    "preguntes": [
+        {
+            "id": 1,
+            "pregunta": "¿Está permitido entablar competiciones de velocidad en las autopistas?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) No, está totalmente prohibido."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) No se podrá realizar en autopistas, pero sí en vías secundarias."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Sí, pero siempre y cuando se haga por conductores experimentados."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Sí, pero solo si son coches con licencia para ello."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_1.jpg"
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Qué le está indicando el agente desde el vehículo?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Que me detenga detrás del coche policial."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Que va a saltar de la moto."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Que va a girar a la izquierda."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Que me detenga en el lado derecho."
+                }
+            ],
+            "resposta_correcta": 4,
+            "imatge": "/sources/Imatges/pregunta_2.jpg"
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Cuál es el límite de velocidad en una autopista para turismos y motocicletas?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) 121 km/h."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) 120 km/h"
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Depende de las características del vehículo."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) 140 km/h"
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_3.jpg"
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Cuál es la distancia de seguridad que debe mantenerse con el vehículo de delante?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Depende de diversos factores, como la velocidad y las condiciones metereológicas, entre otros."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Al menos 50 metros."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) La que permite detenerse sin colisionar en caso de frenado brusco del vehículo de delante."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) No menos de 100 metros."
+                }
+            ],
+            "resposta_correcta": 3,
+            "imatge": "/sources/Imatges/pregunta_4.jpg"
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué indica una señal triangular con un coche y dos líneas onduladas?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Calzada con pavimento deslizante."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Peligro de deslizamiento."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Calzada pintada recientemente."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Prohibido tener un accidente."
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_5.jpg"
+        },
+        {
+            "id": 6,
+            "pregunta": "Si un peatón se dispone a cruzar en un paso de peatones, ¿Qué debes hacer?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Cederle el paso."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Acelerar y rezar."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Cederle el paso solo si tiene intenciones claras de cruzar."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Cederle el paso tocando el cláxon."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_6.jpg"
+        },
+        {
+            "id": 7,
+            "pregunta": "¿En qué situaciones es obligatorio usar el cinturón de seguridad?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Siempre, salvo si te impide la conducción habitual."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Solo si se han bebido cantidades importantes de alcohol antes de conducir."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Nunca."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Siempre, tanto en trayectos cortos como largos y tanto en vías urbanas como interurbanas."
+                }
+            ],
+            "resposta_correcta": 4,
+            "imatge": "/sources/Imatges/pregunta_7.jpg"
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Qué debes hacer si te quedas sin frenos en una pendiente?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Usar el freno de mano gradualmente."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Gritar y esperar lo mejor."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Intentar reducir la velocidad con las marchas."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Saltar del coche en movimiento."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_8.jpg"
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué señal indica una prohibición de adelantar?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Un círculo rojo con dos coches."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Un triángulo con una flecha."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Un cuadrado verde."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Un cartel que dice 'No adelantar, gracias'."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_9.jpg"
+        },
+        {
+            "id": 10,
+            "pregunta": "Si el semáforo está en ámbar, ¿Qué debes hacer?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Acelerar para cruzar antes de que se ponga en rojo."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Reducir la velocidad y detenerte si es seguro hacerlo."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Ignorar el semáforo completamente."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Girar a la derecha, aunque no sea permitido."
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_10.jpg"
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué significa una línea continua en la carretera?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Que puedes adelantar libremente."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Prohibición de adelantar o cambiar de carril."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Que es una zona de aparcamiento."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Que puedes hacer lo que quieras, eres el rey de la carretera."
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_11.jpg"
+        },
+        {
+            "id": 12,
+            "pregunta": "Si el conductor delante de ti enciende sus luces de emergencia, ¿Qué podría estar indicando?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Que está estacionando."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Que está realizando una maniobra peligrosa o tiene una emergencia."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Que te está desafiando a una carrera."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Que se ha olvidado de apagarlas."
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_12.jpg"
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Cuál es la velocidad máxima permitida en una zona residencial?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) 50 km/h."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) 20 km/h."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) 30 km/h."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) 10 km/h."
+                }
+            ],
+            "resposta_correcta": 3,
+            "imatge": "/sources/Imatges/pregunta_13.jpg"
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Qué significa una señal en forma de octágono con la palabra 'STOP'?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Que debes detenerte por completo."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Que puedes seguir, pero con precaución."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Que debes detenerte solo si alguien te está mirando."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Que es una sugerencia de detenerse."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_14.jpg"
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Qué debes hacer si te aproximas a un cruce sin señales ni semáforos?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Detenerte completamente y ceder el paso a todos los vehículos."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Acelerar y esperar que los demás se detengan."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Ceder el paso a la derecha."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Gritar '¡Voy yo!' y pasar."
+                }
+            ],
+            "resposta_correcta": 3,
+            "imatge": "/sources/Imatges/pregunta_15.jpg"
+        },
+        {
+            "id": 16,
+            "pregunta": "Si te encuentras con una señal de tráfico que indica 'prohibido el paso', ¿Qué debes hacer?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Ignorarla, es solo una recomendación."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Dar la vuelta y buscar una ruta alternativa."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Llamar a las autoridades para confirmar si la señal es correcta."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Seguir avanzando, pero con precaución."
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_16.jpg"
+        },
+        {
+            "id": 17,
+            "pregunta": "¿Qué debes hacer si ves una señal de 'curva peligrosa'?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Acelerar para pasar la curva rápidamente."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Reducir la velocidad y prepararte para la curva."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Tocar el cláxon para avisar a los demás conductores."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Ignorar la señal y seguir a la misma velocidad."
+                }
+            ],
+            "resposta_correcta": 2,
+            "imatge": "/sources/Imatges/pregunta_17.jpg"
+        },
+        {
+            "id": 18,
+            "pregunta": "¿Cuál es la velocidad mínima en una autopista?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) 60 km/h."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) 80 km/h."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) 100 km/h."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) 50 km/h, pero solo si vas en bicicleta."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_18.jpg"
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Cómo debes proceder en una intersección con una señal de ceda el paso?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Detenerte completamente."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Ceder el paso solo si alguien está mirando."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Reducir la velocidad y ceder el paso si es necesario."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Acelerar y rezar para que los demás se detengan."
+                }
+            ],
+            "resposta_correcta": 3,
+            "imatge": "/sources/Imatges/pregunta_19.jpg"
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Qué significa una señal con una flecha curva sobre un puente?",
+            "respostes": [
+                {
+                    "id": 1,
+                    "etiqueta": "A) Curva peligrosa sobre el puente."
+                },
+                {
+                    "id": 2,
+                    "etiqueta": "B) Puente estrecho con curva."
+                },
+                {
+                    "id": 3,
+                    "etiqueta": "C) Desvío obligatorio sobre el puente."
+                },
+                {
+                    "id": 4,
+                    "etiqueta": "D) Puedes saltar el puente si vas lo suficientemente rápido."
+                }
+            ],
+            "resposta_correcta": 1,
+            "imatge": "/sources/Imatges/pregunta_9.jpg"
+        }
+    ]
+}
